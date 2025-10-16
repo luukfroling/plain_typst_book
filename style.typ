@@ -6,7 +6,7 @@
 #repr(configuration)
 
 #let leftCaption(it) = {
-  set text(size: configuration.leftcaption.textsize)
+  set text(size: configuration.leftcaption.textsize)    // Voorbeeld van gebruik configuration
   set align(left)
   set par(justify: true)
 
