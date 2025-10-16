@@ -1,6 +1,12 @@
-  
+#let settings = yaml("settings.yml")
+#let defaults = yaml("default.yml")
+
+#let configuration = (dictionary: "contains user defined settings, or defaults", ..defaults, ..settings)
+
+#repr(configuration)
+
 #let leftCaption(it) = {
-  set text(size: 8pt)
+  set text(size: configuration.leftcaption.textsize)
   set align(left)
   set par(justify: true)
 

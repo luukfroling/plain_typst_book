@@ -10,6 +10,8 @@ files:
   - aside_style.typ
   - LICENSE
   - Cover.PNG
+  - settings.yml
+  - default.yml
 authors:
   - name: Rowan Cockett
     github: rowanc1
